@@ -10,7 +10,7 @@ st.set_page_config(
     initial_sidebar_state="expanded"
 )
 
-IMG_SIZE = (400, 100)
+IMG_SIZE = (100, 100)
 
 # --- FUNGSI ALJABAR LINEAR MURNI ---
 def apply_manual_svd(X_matrix, k_components=50):
