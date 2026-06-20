@@ -136,4 +136,4 @@ if dataset_files and len(dataset_files) >= 2:
 else:
     # State Awal jika dataset belum diunggah
     st.info("👈 **Sistem Menunggu Konfigurasi.** Buka panel di sebelah kiri dan unggah minimal 2 gambar wajah untuk membangun matriks dataset dasar.")
-    st.image("https://images.unsplash.com/photo-1555949963-ff9fe0c870eb?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80", caption="Menunggu inisialisasi arsitektur matriks...", use_column_width=False, width=500)
+    st.image("https://images.unsplash.com/photo-1555949963-ff9fe0c870eb?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80", caption="Menunggu inisialisasi arsitektur matriks...", use_column_width=True)
